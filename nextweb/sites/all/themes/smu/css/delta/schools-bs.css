@@ -1,0 +1,142 @@
+/* @override 
+	http://business.smudev.pixelonion.com/sites/all/themes/smu/css/delta/schools-bs.css?m2kavc
+	http://business.smudev.pixelonion.com/sites/all/themes/smu/css/delta/schools-bs.css?m2kcoc
+*/
+
+#zone-header-wrapper {
+	background: #058; }
+
+.front #page-title {
+	background: url(../images/smu_logo_bs.png) no-repeat; }
+
+/* @group Preface 1 */
+
+#zone-preface-1-wrapper {
+	background: #e4e8ef; }
+
+#zone-preface-1-wrapper {
+	border-bottom: none; }
+#zone-preface-1 {
+	padding: 0; }
+
+#region-preface-1 {
+	padding: 1em 0 0; }
+
+#region-preface-1 p {
+	font-family: Century Gothic;
+	font-weight: 100;
+	color: #333; }
+
+#region-preface-1 a {
+	color: #476e9e; }
+
+#region-preface-1 ul {
+	width: 50%;
+	font-size: 1.125em; }
+
+#region-preface-1 li {
+	float: left;
+	width: 50%;
+	margin-bottom: 0.875em; }
+
+#region-preface-1 li:before {
+	content: "\00BB \0020"; }
+
+#block-block-33 {
+	width: 75%;
+	padding-right: 25%;
+	float: left;
+	z-index: 5;
+	margin-bottom: 1em;
+	z-index: 1; }
+
+#block-block-33 p {
+	font-size: 1.25em;
+	line-height: 1.5;
+	margin-bottom: 1em; }
+
+#block-block-33 p:first-child:first-letter {
+	float: left;
+	font-size: 5em;
+	line-height: 0.85;
+	font-weight: bold;
+	padding: 0 0.1em 0 0; }
+
+#block-block-34 {
+	position: absolute;
+	bottom: 0;
+	right: 25%;
+	width: 30%;
+	padding-bottom: 1em;
+	text-align: right;
+	z-index: 2; }
+
+#block-block-34 .block-title {
+	font-size: 1.25em;
+	font-family: Century Gothic; }
+#block-block-34 p { margin: 0.5em 0; }
+#block-block-34 p a {
+	color: #238; }
+#block-block-34 p a:before {
+	content: "";
+	height: 0;
+	width: 0;
+	display: inline-block;
+	margin: 1px 4px 1px 0;
+	border-left: 3px solid #238;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+	overflow: visible; }
+#block-block-34 p a:hover:before {
+	border-left-color: #45b; }
+#block-block-34 img {
+	position: absolute;
+	right: -80%;
+	bottom: 0; }
+
+/* @end */
+
+
+/* @group Postscript 1 */
+
+#zone-postscript-1 {
+	padding: 2em 0; }
+
+#zone-postscript-1 h2.block-title {
+	font-family: Century Gothic;
+	font-size: 1.5em;
+	color: #1e2672;
+	margin-bottom: 0.5em;
+	float: left; }
+#zone-postscript-1 p {
+	font-family: Georgia;
+	font-style: italic;
+	color: #888;
+	font-size: 1.5em;
+	float: left;
+	clear: left; }
+
+#zone-postscript-1 input {
+	float: right;
+	font-size: 1.5em; }
+
+#zone-postscript-1 input[type='submit'] {
+	background: #1e2672;
+	border-radius: 0;
+	font-family: Century Gothic;
+	color: #fff;
+	text-shadow: none; }
+
+/* @end */
+
+
+/* @group Footer */
+
+#zone-footer-wrapper {
+	background: #edeee8;
+	border-top: 3px solid #1e2672; }
+
+#zone-footer h2.block-title {
+	color: #1e2672; }
+
+/* @end */

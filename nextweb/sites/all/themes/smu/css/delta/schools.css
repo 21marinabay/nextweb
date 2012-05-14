@@ -1,0 +1,448 @@
+/* @override http://business.smudev.pixelonion.com/sites/all/themes/smu/css/delta/schools.css?m2kavc */
+
+/* Additional styles for Schools
+   Use Context and Delta to control this */
+
+/* Fonts.com */
+
+#tabs-0-middle div.item-list li, #views_slideshow_cycle_teaser_section_news_hero_on_school_homepage-block_1 .views-field-title a {
+	font-family: 'HelveticaNeueW01-77BdCn 692722';
+	font-weight: normal !important;
+	letter-spacing: 0.5px; }
+
+.block-superfish a.sf-depth-1 {
+	font-family: 'HelveticaNeueW01-67MdCn 692710'; }
+
+/* @group School colours */
+
+.schools-ac #zone-header-wrapper {
+	background: #912; }
+.schools-ec #zone-header-wrapper {
+	background: #178; }
+.schools-is #zone-header-wrapper {
+	background: #ca3; }
+.schools-law #zone-header-wrapper {
+	background: #537; }
+.schools-ss #zone-header-wrapper {
+	background: #162; }
+.front #zone-header-wrapper {
+	background: none; }
+
+.front #zone-content-wrapper {
+  background: linear-gradient(top, #FFFFFF 40%, #BDBDBD 100%);
+  background: -o-linear-gradient(top, #FFFFFF 40%, #BDBDBD 100%);
+  background: -moz-linear-gradient(top, #FFFFFF 40%, #BDBDBD 100%);
+  background: -webkit-linear-gradient(top, #FFFFFF 40%, #BDBDBD 100%);
+  background: -ms-linear-gradient(top, #FFFFFF 40%, #BDBDBD 100%);
+  background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.4, #FFFFFF),
+		color-stop(1, #BDBDBD)
+	); }
+.front.schools-ac #zone-content-wrapper { }
+.front.schools-ec #zone-content-wrapper { }
+.front.schools-is #zone-content-wrapper { }
+.front.schools-law #zone-content-wrapper { }
+.front.schools-ss #zone-content-wrapper { }
+
+/* @end */
+
+
+
+/* @group Header */
+
+#zone-header-wrapper {
+	border-top: 7px solid #333; }
+
+.region-header-inner {
+	padding-top: 0; }
+
+.not-front .site-name {
+	margin-top: 18px;
+	height: 17px;
+	width: 20px;
+	line-height: 17px; }
+.not-front .site-name a {
+	height: 17px;
+	width: 20px;
+	background: url(../images/ico_house_grey.png) no-repeat; }
+.not-front .site-name a:hover {
+	background: url(../images/ico_house_white.png) no-repeat; }
+
+/* @group Header search */
+
+#block-search-form { }
+
+/* @end */
+
+/* @group Main menu (superfish) */
+
+.block-superfish {
+	float: right;
+	clear: both;
+	margin-top: 12px; }
+
+.block-superfish a.sf-depth-1 {
+	font-size: 1.75em;
+	color: #333;
+	text-decoration: none;
+	text-transform: uppercase; }
+
+.block-superfish li.sf-no-children.sf-depth-1 {
+	padding: 10px 18px; }
+.block-superfish li.menuparent a.sf-depth-1 {
+	padding: 10px 30px 10px 20px; }
+
+.block-superfish li.menuparent a.sf-depth-1:hover, .block-superfish li.menuparent.sfHover a.sf-depth-1 {
+	color: #eac57c;
+	background: #000; }
+
+.block-superfish li.sf-no-children.sf-depth-1.first {
+	padding-left: 0; }
+.block-superfish li.sf-no-children.sf-depth-1.last {
+	padding-right: 0; }
+
+/* down arrow */
+.block-superfish a.menuparent {
+	padding-right: 14px; }
+.block-superfish .sf-sub-indicator {
+	right: 15px; }
+
+.block-superfish li.menuparent ul {
+	background: #000;
+	border: 1px solid #000; }
+
+.block-superfish li.sf-depth-2 {
+	padding: 0;
+	border-bottom: 1px solid #333; }
+
+.block-superfish li.sf-depth-2.last {
+	border: 0; }
+
+.block-superfish a.sf-depth-2 {
+	padding: 12px 20px 10px;
+	font-size: 1em;
+	line-height: normal;
+	color: #fff;
+	text-decoration: none; }
+
+.block-superfish a.sf-depth-2:hover {
+	color: #eac57c;
+	background: #158; }
+
+/* @end */
+
+/* @group Menu */
+
+/* Main menu (theme)
+.not-front #region-menu {
+	position: absolute;
+	left: 0;
+	padding-left: 0; }
+.not-front #region-menu #main-menu {
+	float: left; }
+
+.front #region-menu {
+	display: block;
+	position: absolute;
+	top: 118px;
+	right: 0;
+	z-index: 20; }
+
+#main-menu {
+	margin: 0; }
+
+#main-menu li .nolink, #main-menu li a {
+	font-size: 18px;
+	color: #fff;
+	padding: 1px 25px 1px 1px;
+	background: none;
+	border: 0; }
+
+#main-menu li a:hover, #main-menu li.hover a {
+	color: #ccc;
+	background: none;
+	border: 0; }
+
+#main-menu li.last a {
+	padding-right: 0;
+	background: none; }
+
+#main-menu li.last a:hover {
+	color: #967e4f;
+	background: none;
+	border: 0; }
+
+.not-front #main-menu a {
+	color: #fff; }
+*/
+
+/* @end */
+
+
+/* @end */
+
+
+
+/* @group School hero */
+
+#zone-hero-wrapper {
+	background: #000; }
+
+.view-news-hero-on-school-homepage {
+	background: #000;
+	color: #bbb;
+	width: 978px;
+	height: 350px;
+	clear: both; }
+
+.view-news-hero-on-school-homepage a {
+	color: #fff; }
+
+#views_slideshow_cycle_main_news_hero_on_school_homepage-block_1, #views_slideshow_cycle_teaser_section_news_hero_on_school_homepage-block_1 {
+	width: 978px;
+	height: 350px; }
+
+.views-slideshow-cycle-main-frame-row {
+	width: 978px;
+	height: 350px; }
+
+#views_slideshow_cycle_teaser_section_news_hero_on_school_homepage-block_1 .views-field {
+	float: right;
+	width: 276px;
+	background: #000;
+	padding: 4px 26px 4px 30px; }
+
+#views_slideshow_cycle_teaser_section_news_hero_on_school_homepage-block_1 .views-field-field-image {
+	float: left;
+	width: 646px;
+	height: 350px;
+	padding: 0; }
+
+#views_slideshow_cycle_teaser_section_news_hero_on_school_homepage-block_1 .views-field-created {
+	color: #666;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-top: 12px; }
+
+#views_slideshow_cycle_teaser_section_news_hero_on_school_homepage-block_1 .views-field-title a {
+	color: #997d4e;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 28px;
+	line-height: 28px; }
+
+#views_slideshow_cycle_teaser_section_news_hero_on_school_homepage-block_1 .views-field-title {
+	margin-bottom: 15px; }
+
+#views_slideshow_cycle_teaser_section_news_hero_on_school_homepage-block_1 .s-hero-body {
+	font-size: 16px;
+	line-height: normal;
+	font-style: italic;
+	color: #b2b2b2;
+	margin-bottom: 3px; }
+
+#views_slideshow_cycle_teaser_section_news_hero_on_school_homepage-block_1 .views-field-view-node a {
+	font-size: 16px;
+	text-decoration: none; }
+
+#views_slideshow_cycle_teaser_section_news_hero_on_school_homepage-block_1 .views-field-view-node a:hover {
+	text-decoration: underline; }
+
+/* @group Slideshow controls, pager */
+
+.view-news-hero-on-school-homepage .views-slideshow-controls-top {
+	position: relative; }
+
+.view-news-hero-on-school-homepage .views-slideshow-controls-text {
+	position: absolute;
+	left: -50px;
+	top: 165px;
+	width: 1078px;
+	height: 32px;
+	background: none; }
+
+#views_slideshow_controls_text_previous_news_hero_on_school_homepage-block_1 a {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/ico_heroleft.png) no-repeat;
+	text-indent: -9999px; }
+
+#views_slideshow_controls_text_next_news_hero_on_school_homepage-block_1 {
+	float: right; }
+
+#views_slideshow_controls_text_next_news_hero_on_school_homepage-block_1 a {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/ico_heroright.png) no-repeat;
+	text-indent: -9999px; }
+
+#views_slideshow_controls_text_pause_news_hero_on_school_homepage-block_1 {
+	display: none; }
+
+.view-news-hero-on-school-homepage .views-slideshow-pager-fields {
+	position: absolute;
+	right: 0;
+	top: 320px;
+	display: block;
+	z-index: 9999;
+	background: none;
+	width: 276px;
+	padding: 0 26px 20px 30px;
+	height: 20px; }
+
+.view-news-hero-on-school-homepage .views-slideshow-pager-field-item {
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	overflow: hidden;
+	float: left;
+	text-indent: -9999px;
+	background: url(../images/ico_slider.png) no-repeat; }
+
+.view-news-hero-on-school-homepage .views-slideshow-pager-field-item.active {
+	background: url(../images/ico_slideractive.png) no-repeat; }
+
+/* @end */
+
+/* @end */
+
+/* @group Preface 1 */
+
+/* @end */
+
+
+
+/* @group Content */
+
+.front #page-title {
+	display: block;
+	height: 75px;
+	width: 325px;
+	margin: 29px 0 20px 0;
+	padding: 0;
+	text-indent: -9999px;
+	cursor: pointer;
+	float: left; }
+
+.front.schools-ac #page-title {
+	background: url(../images/smu_logo_ac.png) no-repeat; }
+.front.schools-ec #page-title {
+	background: url(../images/smu_logo_ec.png) no-repeat; }
+.front.schools-is #page-title {
+	background: url(../images/smu_logo_is.png) no-repeat; }
+.front.schools-law #page-title {
+	background: url(../images/smu_logo_law.png) no-repeat; }
+.front.schools-ss #page-title {
+	background: url(../images/smu_logo_ss.png) no-repeat; }
+
+.front .region-content-inner {
+	position: relative; }
+
+.front .region-content-inner div.tabs.clearfix {
+	position: absolute;
+	top: 92px;
+	left: 0;
+	z-index: 20; }
+
+/* @group Highlights */
+
+/*
+
+.schools-bs .pane-usp-on-school-landing-panel-pane-1 h2 {
+	color: #444;
+	border-top: 4px solid #e5dfd8;
+	border-bottom: 1px solid #e5dfd8;
+	padding: 7px 0 3px;
+	letter-spacing: 0.5px;
+	margin-top: 20px; }
+
+.schools-bs .view-usp-on-school-landing .views-row {
+	float: left;
+	width: 465px;
+	margin: 0 20px 15px 0; }
+
+.schools-bs .view-usp-on-school-landing a {
+	text-decoration: none;
+	color: #00467f; }
+
+.schools-bs .view-usp-on-school-landing a:hover {
+	text-decoration: underline;
+	color: #997d4e; }
+
+.schools-bs .view-usp-on-school-landing img {
+	float: left;
+	padding-bottom: 30px;
+	margin-right: 16px; }
+
+.schools-bs .view-usp-on-school-landing h3 {
+	margin: 0 0 16px;
+	color: #997d4e; }
+
+.view-usp-on-school-landing .views-field-field-usp-link a {
+	float: left; }
+
+.view-usp-on-school-landing .views-field-edit-node a {
+	background: url(../images/admin/edit.png) no-repeat left center;
+	padding: 0 0 0 18px;
+	float: right; }
+
+*/ 
+/* @end */
+
+/* @group News tabs */
+
+#tabs-0-middle {
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: none;
+	margin: 0.5em 0; }
+
+#tabs-0-middle > div {
+	padding: 16px 0; }
+
+#tabs-0-middle div.item-list > ul {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border-radius: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #e5dfd8; }
+
+#tabs-0-middle div.item-list > ul li {
+	border: 0;
+	border-radius: 0;
+	background: #e5dfd8;
+	padding: 0;
+	margin: 0; }
+
+#tabs-0-middle div.item-list > ul li a {
+	padding: 10px 40px;
+	margin: 3px 0 0;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #4d4d4d;
+	border: 1px solid transparent;
+	border-right-color: #e5dfd8;
+	border-bottom-color: #ccc;
+	text-decoration: none;
+	background: #eee; }
+
+#tabs-0-middle div.item-list > ul li a:hover {
+	background: #e5dfd8; }
+
+#tabs-0-middle div.item-list > ul li.ui-state-active a {
+	background: #fff;
+	border-right-color: #ccc;
+	border-bottom-color: transparent; }
+
+/* @end */
+
+/* @end */
